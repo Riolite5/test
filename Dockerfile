@@ -11,4 +11,5 @@ LABEL homepage="https://omppye.dev/"
 LABEL maintainer="Weslen Guerreiro <omppye@gmail.com>"
 
 ADD entrypoint.sh /entrypoint.sh
+RUN ["chmod", "+x", "/entrypoint.sh"]
 ENTRYPOINT ["/entrypoint.sh"]
