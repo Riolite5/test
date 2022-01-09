@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: Riolite5/test@master
+      - uses: Riolite5/test@main
         with:
           args: -d
         env:
